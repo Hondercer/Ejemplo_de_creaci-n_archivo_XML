@@ -20,7 +20,11 @@ public class Persona {
         this.telefono = telefono;
         this.correo = correo;
     }
-
+    
+    public Persona(){
+        
+    }
+    
     public String getNombre() {
         return nombre;
     }
